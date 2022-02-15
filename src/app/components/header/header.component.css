@@ -1,0 +1,9 @@
+.logo_image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+}
+
+.other_header_text {
+  margin-right: 10px;
+}
