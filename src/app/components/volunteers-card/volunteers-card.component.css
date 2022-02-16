@@ -1,0 +1,21 @@
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.card {
+  width: 23rem;
+  height: 20rem;
+  margin: 1rem;
+}
+.card-img-top {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}

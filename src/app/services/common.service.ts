@@ -1,9 +1,11 @@
 import { Injectable } from '@angular/core';
+import { Subject } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class CommonService {
-
-  constructor() { }
+  constructor() {}
+  fileName = 'commonService';
+  gotoVolunteer = new Subject<boolean>();
 }

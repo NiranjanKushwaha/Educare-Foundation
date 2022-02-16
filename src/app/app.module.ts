@@ -15,6 +15,7 @@ import { ChildEducationComponent } from './components/child-education/child-educ
 import { OldPeopleComponent } from './components/old-people/old-people.component';
 import { WomenEmpowermentComponent } from './components/women-empowerment/women-empowerment.component';
 import { HomeComponent } from './components/home/home.component';
+import { VolunteersCardComponent } from './components/volunteers-card/volunteers-card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +28,7 @@ import { HomeComponent } from './components/home/home.component';
     OldPeopleComponent,
     WomenEmpowermentComponent,
     HomeComponent,
+    VolunteersCardComponent,
   ],
   imports: [
     BrowserModule,
