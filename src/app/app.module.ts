@@ -9,12 +9,24 @@ import { HeaderComponent } from './components/header/header.component';
 import { GallaryModule } from './modules/gallaryModule/gallary.module';
 import { ReusableModule } from './modules/reUsableModule/reusable.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { DonateComponent } from './components/donate/donate.component';
+import { ChildEducationComponent } from './components/child-education/child-education.component';
+import { OldPeopleComponent } from './components/old-people/old-people.component';
+import { WomenEmpowermentComponent } from './components/women-empowerment/women-empowerment.component';
+import { HomeComponent } from './components/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
     HeaderComponent,
+    PageNotFoundComponent,
+    DonateComponent,
+    ChildEducationComponent,
+    OldPeopleComponent,
+    WomenEmpowermentComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
