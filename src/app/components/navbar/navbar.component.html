@@ -23,23 +23,23 @@
             >Home</a
           >
         </li>
-        <li class="nav-item">
+        <li class="nav-item" *ngIf="isHomepage">
           <a
             class="nav-link"
-            [routerLink]="['/volunteers']"
-            [routerLinkActive]="['active']"
+            href="JavaScript:Void(0);"
+            (click)="scrollToVolunteer('volunteers')"
             >Volunteers</a
           >
         </li>
         <li class="nav-item">
           <a
             class="nav-link"
-            [routerLink]="['/donate']"
+            [routerLink]="'/donate'"
             [routerLinkActive]="['active']"
             >Donate</a
           >
         </li>
-        <li class="nav-item">
+        <li class="nav-item" *ngIf="isHomepage">
           <a
             class="nav-link"
             [routerLink]="['/gallary']"
@@ -56,12 +56,33 @@
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Top Categories
+            Categories
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Child Education</a></li>
-            <li><a class="dropdown-item" href="#">Old Orphanage</a></li>
-            <li><a class="dropdown-item" href="#">Women Impowerment</a></li>
+            <li>
+              <a
+                class="dropdown-item"
+                [routerLink]="['/child-education']"
+                [routerLinkActive]="['active']"
+                >Child Education</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                [routerLink]="['/grandPeople']"
+                [routerLinkActive]="['active']"
+                >Old Orphanage</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                [routerLink]="['/women']"
+                [routerLinkActive]="['active']"
+                >Women Impowerment</a
+              >
+            </li>
           </ul>
         </li>
       </ul>

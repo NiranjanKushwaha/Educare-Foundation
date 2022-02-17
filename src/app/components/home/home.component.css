@@ -1,0 +1,40 @@
+.testimonial-section {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 2rem;
+  border: 1px solid red;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid red;
+}
+.testimonial-container div {
+  text-align: center;
+  margin-top: 1rem;
+  border: 1px solid red;
+}
+
+.testimonial-img img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+.testimonial-details {
+  font-family: "Acme", sans-serif;
+  padding: 0.5rem;
+  color: #020025;
+}
+
+.testimonial-person {
+  color: springgreen;
+}
+.testimonial-designation {
+  color: turquoise;
+}
