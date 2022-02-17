@@ -5,7 +5,10 @@
     </div>
     <div class="card-body">
       <h5 class="card-title">{{ item.name }}</h5>
-      <p class="card-text">{{ item.about }} <a href="#">more...</a></p>
+      <p class="card-text">
+        {{ item.about }}
+        <a [routerLink]="['/more', item.id, item.name]">more...</a>
+      </p>
     </div>
   </div>
 </div>

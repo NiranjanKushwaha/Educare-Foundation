@@ -16,6 +16,7 @@ import { OldPeopleComponent } from './components/old-people/old-people.component
 import { WomenEmpowermentComponent } from './components/women-empowerment/women-empowerment.component';
 import { HomeComponent } from './components/home/home.component';
 import { VolunteersCardComponent } from './components/volunteers-card/volunteers-card.component';
+import { MoreComponent } from './components/more/more.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,7 @@ import { VolunteersCardComponent } from './components/volunteers-card/volunteers
     WomenEmpowermentComponent,
     HomeComponent,
     VolunteersCardComponent,
+    MoreComponent,
   ],
   imports: [
     BrowserModule,

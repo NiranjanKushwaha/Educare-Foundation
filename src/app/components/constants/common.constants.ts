@@ -2,6 +2,7 @@ export class CommonConstant {
   public static readonly ngoName = 'Educare Foundation';
   public static readonly testimonials = [
     {
+      id: 1,
       src: '../../../assets/images/Volunteers_Img/niranjan_img.jpg',
       name: 'Niranjan Kushwaha',
       designation: 'Software Engineer',
@@ -9,6 +10,7 @@ export class CommonConstant {
       hasLink: '',
     },
     {
+      id: 2,
       src: '../../../assets/images/Volunteers_Img/rajimg.jpg',
       name: 'Rajesh Kushwaha',
       designation: 'Software Engineer',
@@ -16,6 +18,7 @@ export class CommonConstant {
       hasLink: '',
     },
     {
+      id: 3,
       src: '../../../assets/images/Volunteers_Img/manish.jpg',
       name: 'Manish Kumar',
       designation: 'Software Engineer',
