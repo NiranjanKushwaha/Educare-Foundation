@@ -23,8 +23,7 @@
             >Home</a
           >
         </li>
-        <li class="nav-item">
-          <!-- href="#volunteers"  -->
+        <li class="nav-item" *ngIf="isHomepage">
           <a
             class="nav-link"
             href="JavaScript:Void(0);"
@@ -40,7 +39,7 @@
             >Donate</a
           >
         </li>
-        <li class="nav-item">
+        <li class="nav-item" *ngIf="isHomepage">
           <a
             class="nav-link"
             [routerLink]="['/gallary']"

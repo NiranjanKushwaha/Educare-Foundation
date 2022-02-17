@@ -19,6 +19,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.commonService.hideVolunteer.next(false);
     console.log(CommonConstant.testimonials);
   }
 
