@@ -6,4 +6,25 @@
 
 .other_header_text {
   margin-right: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  place-content: flex-end;
+}
+.other_header_text p {
+  margin-bottom: 0.2rem;
+  color: #747d8c;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.header_ngoName {
+  font-family: "Arial Black", Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  text-shadow: 1px 0px 2px rgb(230 23 203), -1px 0px 2px rgb(230 203 23),
+    0px -1px 2px rgb(23 23 23), 0px 1px 2px rgb(23 23 23),
+    0px 0px 12px rgb(0 0 0 / 99%);
+  padding: 0;
+  margin: 0;
+  color: #000 !important;
 }
