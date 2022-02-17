@@ -6,9 +6,16 @@
     <div class="card-body">
       <h5 class="card-title">{{ item.name }}</h5>
       <p class="card-text">
-        {{ item.about }}
-
-        <a [routerLink]="['/more', item.id, item.name]">more...</a>
+        {{ item.firstTenWords }}
+        <a
+          *ngIf="item.totalWordsArr.length > 10"
+          [routerLink]="['/more', item.id, item.name]"
+          >know more</a
+        >
+      </p>
+      <p *ngIf="item.hasLink">
+        visit:
+        <a class="text-primary" (click)="openLink(item.hasLink)">My Link</a>
       </p>
     </div>
   </div>
