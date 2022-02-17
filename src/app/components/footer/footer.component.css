@@ -6,7 +6,9 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  margin-top: 20rem;
   padding: 1rem 0.5rem;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  margin-top: 3rem;
 }
