@@ -1,3 +1,4 @@
+import { MoreComponent } from './components/more/more.component';
 import { HomeComponent } from './components/home/home.component';
 import { WomenEmpowermentComponent } from './components/women-empowerment/women-empowerment.component';
 import { OldPeopleComponent } from './components/old-people/old-people.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'child-education', component: ChildEducationComponent },
   { path: 'grandPeople', component: OldPeopleComponent },
   { path: 'women', component: WomenEmpowermentComponent },
+  { path: 'more/:id/:name', component: MoreComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
 

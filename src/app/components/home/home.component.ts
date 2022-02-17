@@ -1,15 +1,28 @@
-import { Component, OnInit } from '@angular/core';
-
+import { CommonService } from 'src/app/services/common.service';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { CommonConstant } from '../constants/common.constants';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
+  data = CommonConstant.testimonials;
 
-  constructor() { }
-
-  ngOnInit(): void {
+  @ViewChild('volunteers') volunteers: ElementRef;
+  constructor(private commonService: CommonService) {
+    this.commonService.gotoVolunteer.subscribe((res) => {
+      if (res) {
+        this.scrollToVolunteer(this.volunteers);
+      }
+    });
   }
 
+  ngOnInit(): void {
+    console.log(CommonConstant.testimonials);
+  }
+
+  scrollToVolunteer(viewChildId: any) {
+    viewChildId.nativeElement.scrollIntoView();
+  }
 }
