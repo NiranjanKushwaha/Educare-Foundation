@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { CommonService } from 'src/app/services/common.service';
 
 @Component({
@@ -7,8 +7,9 @@ import { CommonService } from 'src/app/services/common.service';
   styleUrls: ['./child-education.component.css'],
 })
 export class ChildEducationComponent implements OnInit {
+  @ViewChild('childEduBg') childEduBg: ElementRef;
   constructor(private commonService: CommonService) {}
-
+  bg = '../../../assets/images/bg/childEduBg.jpg';
   ngOnInit(): void {
     this.commonService.hideVolunteer.next(true);
   }

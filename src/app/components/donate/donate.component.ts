@@ -8,7 +8,8 @@ import { CommonService } from 'src/app/services/common.service';
 })
 export class DonateComponent implements OnInit {
   constructor(private commonService: CommonService) {}
-
+  childrenImg = '../../../assets/images/donate/children.jpeg';
+  scanner = '../../../assets/images/donate/barcode.gif';
   ngOnInit(): void {
     this.commonService.hideVolunteer.next(true);
   }
