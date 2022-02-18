@@ -1,21 +1,14 @@
-.container-fluid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.img_container {
+  width: 350px;
+  height: 350px;
 }
 
-.imageDiv {
-  display: flex;
-  justify-content: center;
-  margin: 1rem;
+.img_container > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
 }
-.card {
-  width: 23rem;
-  height: 20rem;
-  margin: 1rem;
-}
-.card-img-top {
-  width: 9rem;
-  height: 9rem;
-  border-radius: 50%;
+
+.moreData {
+  min-height: 100vh;
 }
