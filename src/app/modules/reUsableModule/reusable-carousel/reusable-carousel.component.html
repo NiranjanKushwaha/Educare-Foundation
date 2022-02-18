@@ -1,17 +1,17 @@
 <ngb-carousel
   #carousel
-  [interval]="1000"
+  [interval]="1500"
   [pauseOnHover]="pauseOnHover"
   (slide)="onSlide($event)"
 >
   <!-- [pauseOnFocus]="pauseOnFocus" -->
   <ng-template ngbSlide *ngFor="let img of images; index as i">
-    <!-- <div class="carousel-caption">
-      <h3>My slide {{ i + 1 }} title</h3>
-    </div> -->
+    <div class="carousel-caption" *ngIf="img.content">
+      <h3>{{ img.content }}</h3>
+    </div>
     <span>
       <div class="picsum-img-wrapper">
-        <img [src]="img" alt="My image {{ i + 1 }} description" />
+        <img [src]="img.url" alt="My image {{ i + 1 }} description" />
       </div>
     </span>
   </ng-template>

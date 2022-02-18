@@ -17,6 +17,12 @@ export class HomeComponent implements OnInit {
       }
     });
   }
+  images = [62, 83, 466, 965, 982, 1043, 738].map((n) => {
+    return {
+      url: `https://picsum.photos/id/${n}/900/500`,
+      content: '',
+    };
+  });
 
   ngOnInit(): void {
     this.commonService.hideVolunteer.next(false);
