@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import {
   NgbCarousel,
   NgbSlideEvent,
@@ -13,9 +13,7 @@ export class ReusableCarouselComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-  images = [62, 83, 466, 965, 982, 1043, 738].map(
-    (n) => `https://picsum.photos/id/${n}/900/500`
-  );
+  @Input() images: any;
 
   paused = false;
   unpauseOnArrow = false;

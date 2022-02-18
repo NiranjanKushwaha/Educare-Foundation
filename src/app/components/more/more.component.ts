@@ -15,6 +15,7 @@ export class MoreComponent implements OnInit {
 
   profileDetails: any;
   urlParams: any;
+  bg = '../../../assets/images/bg/moreBg.jpg';
   ngOnInit(): any {
     this.commonService.hideVolunteer.next(true);
     this._Activatedroute.paramMap.subscribe((params) => {
