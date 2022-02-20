@@ -1,15 +1,15 @@
 <div class="row moreData" [style.backgroundImage]="'url(' + bg + ')'">
-  <div class="col-4">
+  <div class="col-md-4">
     <div class="img_container mt-3">
       <img [src]="profileDetails.src" alt="" />
     </div>
-    <div class="text-white" style="margin-left: 4.5rem; margin-top: 2rem">
+    <div class="text-white text-center">
       <p>Name: {{ profileDetails.name }}</p>
       <p>Designation: {{ profileDetails.designation }}</p>
     </div>
   </div>
 
-  <div class="col-8">
+  <div class="col-md-8 text-center p-2">
     <div class="texts" class="text-white mt-3">
       <div [innerHTML]="profileDetails.about"></div>
     </div>

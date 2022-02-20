@@ -12,3 +12,12 @@
 .moreData {
   min-height: 100vh;
 }
+
+.img_container {
+  width: 100%;
+}
+
+.img_container > img {
+  width: 100%;
+  padding: 2rem;
+}
