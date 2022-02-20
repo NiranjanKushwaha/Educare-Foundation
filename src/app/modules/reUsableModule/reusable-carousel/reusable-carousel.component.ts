@@ -12,7 +12,6 @@ import {
 export class ReusableCarouselComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
   @Input() images: any;
 
   paused = false;
@@ -22,6 +21,9 @@ export class ReusableCarouselComponent implements OnInit {
   pauseOnFocus = true;
 
   @ViewChild('carousel', { static: true }) carousel: NgbCarousel;
+  ngOnInit(): void {
+    console.log(this.images);
+  }
 
   togglePaused() {
     if (this.paused) {

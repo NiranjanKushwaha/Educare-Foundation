@@ -11,3 +11,23 @@
 .volunteer_heading::first-letter {
   color: brown !important;
 }
+/* .images_contaier {
+  border: 1px solid red;
+  max-height: 25rem;
+  width: 100% !important;
+} */
+
+::ng-deep .picsum-img-wrapper {
+  border: 2px solid blue;
+  height: 25rem;
+  width: 100%;
+}
+::ng-deep .picsum-img-wrapper > img {
+  width: 100%;
+  height: 25rem;
+}
+
+/* .images_contaier img {
+  width: 100% !important;
+  height: 25rem !important;
+} */
