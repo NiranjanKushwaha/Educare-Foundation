@@ -11,9 +11,23 @@
         <div class="col-sm-6 col-md-4 item">
           <h3>Services</h3>
           <ul>
-            <li><a href="/child-education">Child Education</a></li>
-            <li><a href="/women">Women Empowerment</a></li>
-            <li><a href="/grandPeople">orphanage for old</a></li>
+            <li>
+              <a
+                [routerLink]="['/child-education']"
+                [routerLinkActive]="['active']"
+                >Child Education</a
+              >
+            </li>
+            <li>
+              <a [routerLink]="['/women']" [routerLinkActive]="['active']"
+                >Women Empowerment</a
+              >
+            </li>
+            <li>
+              <a [routerLink]="['/grandPeople']" [routerLinkActive]="['active']"
+                >orphanage for old</a
+              >
+            </li>
           </ul>
         </div>
         <div class="col-sm-6 col-md-4 item">
