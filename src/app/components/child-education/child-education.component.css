@@ -5,4 +5,40 @@
 
 .edu_quote {
   color: #2c3a47;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.edu_quote p {
+  padding: 0.5rem;
+}
+
+.child_img_left {
+  border-radius: 1rem;
+  /* margin-left: 1.2rem; */
+  padding: 0.5rem;
+  width: 20rem;
+}
+
+.quote {
+  /* margin-left: 1.2rem; */
+  padding: 0.5rem;
+  color: #2c3a47;
+  font-size: large;
+  font-weight: 800;
+}
+
+.child_img_right {
+  border-radius: 1rem;
+  /* margin-right: 2rem; */
+  padding-right: 0.5rem;
+  width: 20rem;
+}
+
+@media (max-width: 769px) {
+  .edu_quote p {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: blue;
+  }
 }
