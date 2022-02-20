@@ -3,38 +3,43 @@ export class CommonConstant {
   public static readonly testimonials = [
     {
       id: 1,
-      src: '../../../assets/images/Volunteers_Img/niranjan_img.jpg',
-      name: 'Niranjan Kushwaha',
-      designation: 'Software Engineer',
-      about: `
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus esse consequatur dolorum voluptate cum tempore labore ab dignissimos vitae, culpa cumque beatae, maiores placeat alias libero. Asperiores maxime debitis iusto.
-      Enim amet earum laudantium adipisci eveniet sequi ad minus officiis ex dolor consequuntur ducimus tempora quisquam rem ab natus qui repellat, error, pariatur delectus voluptas odit exercitationem vero? Recusandae, eum?
-      Enim accusamus illum, ea accusantium quae voluptatem maxime quam doloribus qui illo possimus explicabo, in rem ipsam dolor sapiente minima exercitationem cumque iure architecto temporibus aut animi facilis? Omnis, rem!
-      Ullam, libero deleniti. Libero minus nostrum reprehenderit corrupti maiores accusantium expedita, similique aliquam. Nulla doloremque quae aspernatur assumenda in totam vel suscipit quaerat tempore. Error ea architecto vel commodi fugit.
-      Delectus qui perspiciatis doloribus, temporibus impedit voluptas odit explicabo natus reiciendis repellat! Reprehenderit ipsam tempore, ea aut corrupti adipisci at sequi, corporis necessitatibus porro provident in, ad nobis accusamus? Dolorem.
-      Provident vero neque dolorem in iure at earum perferendis eligendi aliquam sunt ut temporibus eaque esse, quos saepe. Dolores nam quod ipsam maxime illum nobis voluptate esse sed dolorum quia.
-      Iste quasi numquam fugit repellendus pariatur officiis sapiente enim optio consequuntur velit porro magnam id voluptates, ipsa tempore eligendi quia sit, molestias eos? Iusto necessitatibus velit asperiores quidem beatae a.
-      Similique praesentium dolorem voluptatibus nam molestiae sed minima, quasi ut, modi maiores odit placeat nulla quaerat, sint expedita nemo perspiciatis. Assumenda iure possimus facilis quia dicta deleniti dignissimos perspiciatis fuga?
-      Odio libero provident unde animi eius adipisci itaque in, magnam commodi. Corporis sequi, accusamus cupiditate eos tempore laudantium doloribus iusto consectetur beatae, architecto aut numquam quia placeat harum minima commodi.
-      Ipsam veritatis iusto tempore, dolor totam aspernatur necessitatibus eos labore sint porro. Quas maiores perspiciatis nihil! Necessitatibus, laudantium. Quam at nobis rem, quo necessitatibus quod eius consequatur! Cum, animi illo.`,
+      src: 'https://img.search.brave.com/Ey2ma2mbJJlW_kpdPRT-Ir-ZC9ED-NEtqorA8HxAPSY/rs:fit:841:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5m/MEFMWGxLSjZkdzF4/WWFNczc1TlZRSGFF/TCZwaWQ9QXBp',
+      name: 'Dr. Madhuri Pandeya',
+      designation: '',
+      about: '',
       hasLink: '',
     },
 
     {
       id: 2,
       src: '../../../assets/images/Volunteers_Img/rajimg.jpg',
-      name: 'Rajesh Kushwaha',
-      designation: 'Software Engineer',
-      about: 'Hello My name is Rajesh Kushwaha',
-      hasLink:
-        'https://stackoverflow.com/questions/25957073/how-to-increase-div-width-according-to-the-text-inside-it',
+      name: 'Dr. Rajesh Singh',
+      designation: '',
+      about: '',
+      hasLink: '',
     },
     {
       id: 3,
       src: '../../../assets/images/Volunteers_Img/manish.jpg',
       name: 'Manish Kumar',
-      designation: 'Software Engineer',
-      about: 'Hello My name is Manish Kushwaha',
+      designation: '',
+      about: '',
+      hasLink: '',
+    },
+    {
+      id: 3,
+      src: 'https://img.search.brave.com/zXDdib1_YJx365ov6zQHP4I-HSiMBi2FFLrukaefyYs/rs:fit:670:663:1/g:ce/aHR0cHM6Ly9pbS5y/ZWRpZmYuY29tL2dl/dGFoZWFkLzIwMTYv/anVuLzAya2FhbmNo/aS1jaG9wcmExLmpw/Zw',
+      name: 'Leena Bhaskar',
+      designation: '',
+      about: '',
+      hasLink: '',
+    },
+    {
+      id: 3,
+      src: 'https://img.search.brave.com/0MkiSpRNFlCM3JUHyGbgzFSnpPqkABmfO2rnFgRSa_Q/rs:fit:612:407:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vcGhvdG9z/L3lvdW5nLW1lbi1w/b3J0cmFpdC1waWN0/dXJlLWlkODQwNDQ5/NzYyP2s9NiZtPTg0/MDQ0OTc2MiZzPTYx/Mng2MTImdz0wJmg9/QjlUUU52UEZkdS16/Ry15OG5fZlBkNTVW/enRrSktfSFRfYTRD/bEFtdHlBYz0',
+      name: 'Rahul Tyagi',
+      designation: '',
+      about: '',
       hasLink: '',
     },
   ];

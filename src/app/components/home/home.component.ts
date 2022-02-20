@@ -29,10 +29,10 @@ export class HomeComponent implements OnInit {
       url: 'https://www.gkkhoj.com/wp-content/uploads/2019/08/Tulsidas-Hindi.jpg',
     },
     {
-      url: 'https://www.gyanipandit.com/wp-content/uploads/2017/09/Meerabai-ke-Dohe.jpg',
+      url: 'https://img.search.brave.com/dK4pN_CnTL473yqBBfQSv4gzSllgt05hNvAfL7d5ygs/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93d3cu/cmVsaWdpb3VzdGFs/a3MuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE3LzA4L21l/ZXJhYmFpLXBob3Rv/LmpwZw',
     },
     {
-      url: 'https://www.hindisoch.com/wp-content/uploads/2016/06/Kabir-das-ke-dohe-with-Hindi-meaning.jpg',
+      url: 'https://wallpapercave.com/dwp1x/wp6392655.jpg',
     },
   ];
 

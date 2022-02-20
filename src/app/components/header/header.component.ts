@@ -6,7 +6,9 @@ import { CommonConstant } from '../constants/common.constants';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  logo = '../../../assets/images/ngo_logo.jpg';
+  // logo = '../../../assets/images/ngo_logo.jpg';
+  logo = '../../../assets/images/book_logo.png';
+
   ngoName = CommonConstant.ngoName;
   constructor() {}
 
